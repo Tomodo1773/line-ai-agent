@@ -103,6 +103,7 @@ module AppService './app/api.bicep' = {
       // GOOGLE_API_KEY: appSettings.GOOGLE_API_KEY
       TAVILY_API_KEY: appSettings.TAVILY_API_KEY
       OPENAI_API_KEY: appSettings.OPENAI_API_KEY
+      FIRECRAWL_API_KEY:appSettings.FIRECRAWL_API_KEY
     }
   }
   dependsOn:[

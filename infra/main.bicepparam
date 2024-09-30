@@ -11,6 +11,7 @@ param appSettings = {
   // GOOGLE_API_KEY: readEnvironmentVariable('GOOGLE_API_KEY', 'default-google-api-key')
   TAVILY_API_KEY: readEnvironmentVariable('TAVILY_API_KEY', 'default-tavily-api-key')
   OPENAI_API_KEY: readEnvironmentVariable('OPENAI_API_KEY', 'default-openai-api-key')
+  FIRECRAWL_API_KEY: readEnvironmentVariable('FIRECRAWL_API_KEY', 'default-firecrawl-api-key')
 }
 
 param cosmosDbAccountName = readEnvironmentVariable('AZURE_COSMOSDB_NAME', '')
